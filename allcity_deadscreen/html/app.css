@@ -1,0 +1,63 @@
+/* MADE BY KALU AND KASHNAR
+[ALL CITY]
+version : 1.00
+update : 16/06/2018
+info: */
+
+@font-face {
+  font-family: 'Edo';
+  src: url('font/edosz.ttf');  
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin-top: 20vh;
+	margin-left: 20vw; /*25*/
+	width: 1258px; /*958px;*/
+	height: 592px;
+	color: white;
+	border-radius: 40px;
+	border: 1px solid #333;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	
+}
+
+#wrapper-text{
+	display: flex;
+	font-family: Edo;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+}
+
+#wrapper-img{
+	width: 300px;
+	height: 592px;
+	background-image: url("1.png");
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333 ;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+
+#titre {
+	font-size: 60px;
+	
+}
+
+
+img{
+	width: 300px;
+	height: 592px;
+	opacity: 0.5;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
